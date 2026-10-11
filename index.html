@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amorah Joias — Prata 925</title>
+  <meta name="description" content="Amorah Joias: joias em prata 925 com design delicado e atemporal. Anéis, colares, brincos e pulseiras para usar todos os dias.">
+  <meta property="og:title" content="Amorah Joias — Prata 925">
+  <meta property="og:description" content="Joias em prata 925 com design delicado e atemporal.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ícones (traço fino) usados como ilustração até as fotos reais entrarem -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-anel" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
+      <circle cx="50" cy="58" r="24"/>
+      <circle cx="50" cy="58" r="19"/>
+      <path d="M43 34 L50 24 L57 34 L50 38 Z"/>
+    </symbol>
+    <symbol id="i-colar" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
+      <path d="M18 18 C22 52, 40 66, 50 66 C60 66, 78 52, 82 18"/>
+      <circle cx="50" cy="70" r="3"/>
+      <path d="M50 73 C44 80, 44 86, 50 90 C56 86, 56 80, 50 73 Z"/>
+    </symbol>
+    <symbol id="i-brinco" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
+      <path d="M36 16 C36 8, 48 8, 48 16 L48 30"/>
+      <circle cx="48" cy="34" r="4"/>
+      <path d="M48 38 L48 50"/>
+      <circle cx="48" cy="66" r="15"/>
+      <path d="M60 22 C60 14, 72 14, 72 22 L72 34"/>
+      <circle cx="72" cy="38" r="3"/>
+    </symbol>
+    <symbol id="i-pulseira" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.2">
+      <ellipse cx="50" cy="52" rx="34" ry="14"/>
+      <ellipse cx="50" cy="48" rx="34" ry="14"/>
+      <circle cx="50" cy="66" r="3.5"/>
+    </symbol>
+  </svg>
+
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#topo" class="logo" aria-label="Amorah Joias — início">
+        amorah<span>joias</span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" id="menu">
+        <a href="#colecao">Coleção</a>
+        <a href="#categorias">Categorias</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#cuidados">Cuidados</a>
+        <a href="https://instagram.com/amorahjoias" target="_blank" rel="noopener" class="nav__cta">Comprar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Prata 925 · Feito para durar</p>
+          <h1>Delicadeza que<br><em>acompanha você</em></h1>
+          <p class="lead">Joias em prata 925 com design minimalista e atemporal, pensadas para o dia a dia e para os momentos que merecem brilho.</p>
+          <div class="hero__actions">
+            <a href="#colecao" class="btn btn--dark">Ver coleção</a>
+            <a href="https://instagram.com/amorahjoias" target="_blank" rel="noopener" class="btn btn--ghost">@amorahjoias</a>
+          </div>
+        </div>
+        <div class="hero__visual reveal">
+          <div class="hero__card hero__card--a"><svg><use href="#i-colar"/></svg></div>
+          <div class="hero__card hero__card--b"><svg><use href="#i-anel"/></svg></div>
+          <span class="hero__badge">925</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAIXA DE BENEFÍCIOS -->
+    <section class="perks">
+      <div class="container perks__inner">
+        <div><strong>Prata 925</strong><span>Certificada e legítima</span></div>
+        <div><strong>Hipoalergênica</strong><span>Confortável para todos os dias</span></div>
+        <div><strong>Garantia</strong><span>Qualidade em cada detalhe</span></div>
+        <div><strong>Envio para todo o Brasil</strong><span>Embalagem para presente</span></div>
+      </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="section" id="categorias">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Categorias</p>
+          <h2>Encontre a sua peça</h2>
+        </div>
+        <div class="categories">
+          <a href="#colecao" class="category reveal" data-filter="aneis">
+            <div class="category__img"><svg><use href="#i-anel"/></svg></div>
+            <h3>Anéis</h3>
+          </a>
+          <a href="#colecao" class="category reveal" data-filter="colares">
+            <div class="category__img"><svg><use href="#i-colar"/></svg></div>
+            <h3>Colares</h3>
+          </a>
+          <a href="#colecao" class="category reveal" data-filter="brincos">
+            <div class="category__img"><svg><use href="#i-brinco"/></svg></div>
+            <h3>Brincos</h3>
+          </a>
+          <a href="#colecao" class="category reveal" data-filter="pulseiras">
+            <div class="category__img"><svg><use href="#i-pulseira"/></svg></div>
+            <h3>Pulseiras</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLEÇÃO -->
+    <section class="section section--alt" id="colecao">
+      <div class="container">
+        <div class="section__head section__head--row reveal">
+          <div>
+            <p class="eyebrow">Coleção</p>
+            <h2>Destaques da estação</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="Filtrar por categoria">
+            <button class="filter is-active" data-filter="todos">Todos</button>
+            <button class="filter" data-filter="aneis">Anéis</button>
+            <button class="filter" data-filter="colares">Colares</button>
+            <button class="filter" data-filter="brincos">Brincos</button>
+            <button class="filter" data-filter="pulseiras">Pulseiras</button>
+          </div>
+        </div>
+
+        <!--
+          Para usar fotos reais: troque o <svg> dentro de .product__img por
+          <img src="images/nome-da-foto.jpg" alt="Descrição da peça" loading="lazy">
+        -->
+        <div class="products">
+          <article class="product reveal" data-cat="aneis">
+            <div class="product__img"><svg><use href="#i-anel"/></svg><span class="tag">Novo</span></div>
+            <div class="product__info">
+              <h3>Anel Solitário Ponto de Luz</h3>
+              <p class="price">R$ 129,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="colares">
+            <div class="product__img"><svg><use href="#i-colar"/></svg></div>
+            <div class="product__info">
+              <h3>Colar Gota Cristal</h3>
+              <p class="price">R$ 159,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="brincos">
+            <div class="product__img"><svg><use href="#i-brinco"/></svg><span class="tag">Mais vendido</span></div>
+            <div class="product__info">
+              <h3>Brinco Argola Delicada</h3>
+              <p class="price">R$ 99,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="pulseiras">
+            <div class="product__img"><svg><use href="#i-pulseira"/></svg></div>
+            <div class="product__info">
+              <h3>Pulseira Elo Português</h3>
+              <p class="price">R$ 149,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="aneis">
+            <div class="product__img"><svg><use href="#i-anel"/></svg></div>
+            <div class="product__info">
+              <h3>Anel Aparador Trançado</h3>
+              <p class="price">R$ 89,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="colares">
+            <div class="product__img"><svg><use href="#i-colar"/></svg><span class="tag">Novo</span></div>
+            <div class="product__info">
+              <h3>Choker Riviera</h3>
+              <p class="price">R$ 189,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="brincos">
+            <div class="product__img"><svg><use href="#i-brinco"/></svg></div>
+            <div class="product__info">
+              <h3>Brinco Ear Cuff Minimal</h3>
+              <p class="price">R$ 79,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+
+          <article class="product reveal" data-cat="pulseiras">
+            <div class="product__img"><svg><use href="#i-pulseira"/></svg></div>
+            <div class="product__info">
+              <h3>Bracelete Liso Polido</h3>
+              <p class="price">R$ 169,90</p>
+            </div>
+            <a class="product__buy" href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Pedir pelo Instagram</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container about">
+        <div class="about__visual reveal">
+          <div class="about__frame">
+            <span>925</span>
+            <small>prata de lei</small>
+          </div>
+        </div>
+        <div class="about__text reveal">
+          <p class="eyebrow">Sobre a Amorah</p>
+          <h2>Joias feitas com <em>amor</em> e intenção</h2>
+          <p>A Amorah nasceu do desejo de criar peças que contam histórias — joias leves, elegantes e versáteis, que acompanham você do café da manhã ao fim de noite.</p>
+          <p>Trabalhamos exclusivamente com prata 925: uma liga composta por 92,5% de prata pura, que garante durabilidade, brilho intenso e conforto para peles sensíveis.</p>
+          <ul class="about__list">
+            <li><strong>92,5%</strong> prata pura</li>
+            <li><strong>100%</strong> peças selecionadas</li>
+            <li><strong>∞</strong> combinações</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUIDADOS -->
+    <section class="section section--alt" id="cuidados">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Cuidados</p>
+          <h2>Para seu brilho durar</h2>
+        </div>
+        <div class="care">
+          <div class="care__item reveal">
+            <span class="care__num">01</span>
+            <h3>Guarde separadamente</h3>
+            <p>Armazene cada peça em saquinho ou compartimento individual, longe da umidade e do ar.</p>
+          </div>
+          <div class="care__item reveal">
+            <span class="care__num">02</span>
+            <h3>Evite químicos</h3>
+            <p>Retire as joias antes de usar perfume, cremes, piscina, mar ou produtos de limpeza.</p>
+          </div>
+          <div class="care__item reveal">
+            <span class="care__num">03</span>
+            <h3>Limpe com flanela</h3>
+            <p>Uma flanela macia própria para prata devolve o brilho natural sem riscar a peça.</p>
+          </div>
+          <div class="care__item reveal">
+            <span class="care__num">04</span>
+            <h3>Use sempre</h3>
+            <p>O contato com a pele ajuda a manter a prata brilhante. A melhor joia é a que você usa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+    <section class="insta">
+      <div class="container insta__inner reveal">
+        <p class="eyebrow eyebrow--light">Siga a Amorah</p>
+        <h2>Novidades, lançamentos e<br>bastidores no Instagram</h2>
+        <a href="https://instagram.com/amorahjoias" target="_blank" rel="noopener" class="btn btn--light">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/>
+          </svg>
+          @amorahjoias
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <a href="#topo" class="logo logo--footer">amorah<span>joias</span></a>
+        <p>Joias em prata 925 com design delicado e atemporal.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <a href="#colecao">Coleção</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#cuidados">Cuidados</a>
+        <a href="https://instagram.com/amorahjoias" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <small>© <span id="ano"></span> Amorah Joias. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
